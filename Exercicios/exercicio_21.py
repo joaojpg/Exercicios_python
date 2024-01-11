@@ -1,4 +1,4 @@
-import random
+from random import shuffle
 
 print('Faça um sorteio da ordem de alunos que irão apresentar seu trabalho escolar: ')
 
@@ -8,7 +8,7 @@ nome3 = input('Digite o nome do proximo aluno: ')
 nome4 = input('Digite o nome do proximo aluno: ')
 lista = [nome1, nome2, nome3, nome4]
 
-random.shuffle(lista)
+shuffle(lista)
 
 print('Os alunos sorteados em ordem foram:')
 
