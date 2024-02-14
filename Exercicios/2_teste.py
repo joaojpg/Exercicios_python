@@ -1,7 +1,4 @@
-print('teste de commit em dev')
+a1 = 19 // 2
+a2 = 19 % 2
 
-teste = input('digite algo para testar: ')
-
-print('foi isso que você digitou? "{}"'.format(teste))
-
-input('\nAperte enter para finalizar o programa.')
+print('a1 = {}, a2 = {}'.format(a1, a2))

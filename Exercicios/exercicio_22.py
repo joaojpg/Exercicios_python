@@ -5,4 +5,4 @@ pygame.mixer.init()
 pygame.mixer.music.load("C:/Users/gatin/OneDrive/Documentos/github/Exercicios_python/Audios/Clovis.mp3")
 pygame.mixer.music.play()
 
-input("Pressione enter para finalizar.")
+input('Pressione enter para finalizar.')
